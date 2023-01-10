@@ -1,0 +1,38 @@
+{
+	"name": "vue3-word-cloud",
+	"version": "1.0.1",
+	"description": "Generates a cloud out of the words.",
+	"keywords": [
+		"cloud",
+		"component",
+		"draw",
+		"key",
+		"tag",
+		"vue",
+		"word"
+	],
+	"license": "MIT",
+	"author": "Sergej Sintschilin <seregpie@gmail.com>",
+	"files": [],
+	"main": "index.js",
+	"repository": "github:SeregPie/VueWordCloud",
+	"scripts": {
+		"build": "rollup -c",
+		"prepublishOnly": "npm run build",
+		"serve": "rollup -c -w"
+	},
+	"devDependencies": {
+		"@rollup/plugin-buble": "^1.0.1",
+		"@rollup/plugin-node-resolve": "^15.0.1",
+		"@rollup/plugin-terser": "^0.1.0",
+		"eslint": "^8.28.0",
+		"eslint-config-seregpie": "^1.2.1",
+		"rollup": "^3.5.0",
+		"rollup-plugin-serve": "^2.0.2"
+	},
+	"dependencies": {
+	},
+	"peerDependencies": {
+		"vue": "^3.x"
+	}
+}
