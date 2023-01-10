@@ -1,6 +1,8 @@
-# VueWordCloud
+# Vue3 Word Cloud
 
 Generates a cloud out of the words.
+
+Support Vue 3
 
 ## demo
 
