@@ -1,6 +1,6 @@
 {
 	"name": "vue3-word-cloud",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Generates a cloud out of the words.",
 	"keywords": [
 		"cloud",
@@ -12,10 +12,10 @@
 		"word"
 	],
 	"license": "MIT",
-	"author": "Sergej Sintschilin <seregpie@gmail.com>",
+	"author": "Samir Atras <atras.samir@gmail.com>",
 	"files": [],
 	"main": "index.js",
-	"repository": "github:SeregPie/VueWordCloud",
+	"repository": "github:atrassamir/vue3-word-cloud",
 	"scripts": {
 		"build": "rollup -c",
 		"prepublishOnly": "npm run build",
