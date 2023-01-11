@@ -1,5 +1,5 @@
 {
-	"name": "vue3-word-cloud-d3",
+	"name": "vue3-word-cloud",
 	"version": "1.0.1",
 	"description": "Generates a cloud out of the words.",
 	"keywords": [
