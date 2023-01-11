@@ -13,7 +13,7 @@ Support Vue 3
 ### npm
 
 ```shell
-npm i vuewordcloud
+npm i vue3-word-cloud
 ```
 
 ### ES module
@@ -22,9 +22,9 @@ Register the component globally.
 
 ```javascript
 import Vue from 'vue';
-import VueWordCloud from 'vuewordcloud';
+import Vue3WordCloud from 'vue3-word-cloud';
 
-Vue.component(VueWordCloud.name, VueWordCloud);
+Vue.component(Vue3WordCloud.name, VueWordCloud);
 ```
 
 *or*
@@ -32,28 +32,19 @@ Vue.component(VueWordCloud.name, VueWordCloud);
 Register the component in the scope of another component.
 
 ```javascript
-import VueWordCloud from 'vuewordcloud';
+import Vue3WordCloud from 'vue3-word-cloud';
 
 export default {
   components: {
-    [VueWordCloud.name]: VueWordCloud,
+    [Vue3WordCloud.name]: Vue3WordCloud,
   },
 };
 ```
 
-### browser
-
-```html
-<script src="https://unpkg.com/vue"></script>
-<script src="https://unpkg.com/vuewordcloud"></script>
-```
-
-The component is globally available as `VueWordCloud`. If Vue is detected, the component will be registered automatically.
-
 ## usage
 
 ```html
-<vue-word-cloud
+<vue3-word-cloud
   style="
     height: 480px;
     width: 640px;
@@ -69,13 +60,13 @@ The component is globally available as `VueWordCloud`. If Vue is detected, the c
 Pass custom renderer for the words.
 
 ```html
-<vue-word-cloud :words="words">
+<vue3-word-cloud :words="words">
   <template slot-scope="{text, weight, word}">
     <div :title="weight" style="cursor: pointer;" @click="onWordClick(word)">
       {{ text }}
     </div>
   </template>
-</vue-word-cloud>
+</vue3-word-cloud>
 ```
 
 ## properties
